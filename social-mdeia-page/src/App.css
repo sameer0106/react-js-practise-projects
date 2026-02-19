@@ -1,0 +1,85 @@
+.Container {
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+}
+
+.pageContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #c5b1d4;
+}
+
+.PostDiv {
+  display: flex;
+  margin: 4.3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.PostCard {
+  min-height: 13rem;
+  display: flex;
+  height: 17rem;
+  width: 20rem;
+}
+
+.CardPicEdit {
+  height: 4rem;
+}
+
+.reactionSpan {
+  margin-top: 0.7rem;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.TagClass{
+  margin: 0 0.4rem 0 0;
+}
+
+.formHeading{
+  justify-self: center;
+}
+
+/* Center input section and give 70% width */
+.inputContainer {
+  width: 70%;
+  max-width: 700px;
+}
+
+/* Make it responsive for mobile screens */
+@media (max-width: 768px) {
+  .inputContainer {
+    width: 90%;
+  }
+}
+
+.FormEdit {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .FormEdit {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.FormEdit input {
+  width: 100%;
+}
+
+.submitBtnEdit{
+  margin: 0rem 6rem;
+  width: 6rem;
+}
+
+.sidebarText{
+  margin-right: 2.5rem;
+}
+
+.WelcomeMessage{
+  margin-top: 7rem;
+}
