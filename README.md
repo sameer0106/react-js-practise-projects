@@ -8,6 +8,7 @@ The goal of these projects is to gain hands-on experience with:
 - State management
 - Event handling
 - Reusable UI components
+- Routing
 - Basic application structure
 
 These projects are part of my journey toward building full-stack web applications.
@@ -28,10 +29,7 @@ A task management application that allows users to add, delete, and manage daily
 - React
 - JavaScript
 - CSS
-
-**Folder:** `/todo-app`
-
----
+- 
 
 ### 🌐 Social Media UI
 A responsive social media interface layout built using React components.
@@ -46,12 +44,6 @@ A responsive social media interface layout built using React components.
 - JavaScript
 - CSS
 
-**Folder:** `/social-media-ui`
-
----
-
 ## 🚀 Future Improvements
-- Improve UI styling
-- Add routing
 - Connect to backend APIs
 - Implement persistent storage
