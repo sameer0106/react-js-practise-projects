@@ -1,0 +1,17 @@
+.App-Container {
+  margin: 10px;
+  padding: 20px;
+}
+
+.Items-Container {
+  text-align: left;
+}
+
+button {
+  min-width: 70px;
+}
+
+.row {
+  margin: 9px;
+  row-gap: 15px;
+}
