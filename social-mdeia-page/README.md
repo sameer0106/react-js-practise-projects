@@ -1,16 +1,137 @@
-# React + Vite
+# 📱 Social Media React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive social media style UI built with **React + Bootstrap** to practice component structure, routing, layout composition, and CRUD-style UI interactions.
 
-Currently, two official plugins are available:
+This project focuses on frontend structure and UI behavior. Authentication and profile features are planned for future implementation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧭 Layout
+- Responsive Bootstrap-based sidebar
+- Top navigation header
+- Clean card-based post layout
+- Reusable UI structure across pages
 
-## Expanding the ESLint configuration
+### 🏠 Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Home
+- Displays created posts in card format
+- Each post shows title, content, tags, and reactions
+- Delete post UI available
+
+#### Create Post
+- Form to add a new post
+- Fields:
+  - User ID
+  - Title
+  - Body
+  - Tags
+  - Reactions
+- Posts appear on Home after creation
+
+#### Greeting Page
+- Default landing UI when no posts exist
+
+---
+
+## ❌ Not Implemented Yet
+
+These features are currently UI-only:
+
+- Authentication system
+- Login / Logout functionality
+- User profile system
+- Backend API integration
+- Persistent storage
+
+Future versions may include these features.
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router
+- Bootstrap
+- JavaScript (ES6+)
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Header
+│   ├── Sidebar
+│   ├── PostCard
+│   └── Layout
+│
+├── pages/
+│   ├── Home
+│   ├── CreatePost
+│   └── Welcome
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start development server
+```bash
+npm run dev
+```
+
+App runs at:
+```
+http://localhost:5173
+```
+
+---
+
+## 🎯 Learning Goals
+
+This project is built to practice:
+
+- Component-based UI design
+- Layout composition
+- Form handling in React
+- State-driven rendering
+- Reusable UI patterns
+- Clean project organization
+
+---
+
+## 🔮 Future Improvements
+
+- Authentication flow
+- User profiles
+- Backend API integration
+- Post editing
+- Like/comment system
+- Global state management
+- Dark mode
+- Deployment
+
+---
+
+## 📄 License
+This project is for learning purposes.
