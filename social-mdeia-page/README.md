@@ -4,8 +4,8 @@ A responsive social media style UI built with **React + Bootstrap** to practice 
 
 This project focuses on frontend structure and UI behavior. Authentication and profile features are planned for future implementation.
 
-![image alt](https://github.com/sameer0106/react-js-practise-projects/blob/main/social-mdeia-page/UI%20ScreenShots/first-page.png?raw=true)
 ![image alt](https://github.com/sameer0106/react-js-practise-projects/blob/ed3eb2e425f139a832f8957fdffb966b237c9e75/social-mdeia-page/UI%20ScreenShots/home.png)
+![image alt](https://github.com/sameer0106/react-js-practise-projects/blob/62b3d6f09b4c35103fc4fa68094d8ab249ea3dc8/social-mdeia-page/UI%20ScreenShots/create-post.png)
 
 ## 🚀 Features
 
