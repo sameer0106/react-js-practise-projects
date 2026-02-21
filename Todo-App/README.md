@@ -3,7 +3,8 @@
 A simple and responsive Todo application built with React.  
 This project was created as part of my React learning journey to practice component-based architecture and state management.
 
----
+Workflow :
+![image alt](https://github.com/sameer0106/react-js-practise-projects/blob/868281af69da4bbfbb96470a9f475e1bc1b867c8/Todo-App/UI%20ScreenShots/todo-app.png)
 
 ## ✨ Features
 
